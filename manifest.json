@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "chrome extension sample",
+    "version": "0.1.0",
+    "description": "検証用ダミー",
+    "permissions": [
+        "tabs"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": [
+            "js/index.js"
+        ]
+    }],
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "web_accessible_resources": [
+        "js/do_count_ups.js"
+    ],
+    "page_action": {
+        "default_popup": "",
+        "default_icon": {
+        }
+    },
+    "icons": {
+    }
+}

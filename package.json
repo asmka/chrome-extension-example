@@ -1,0 +1,34 @@
+{
+  "name": "nicograph",
+  "version": "0.2.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-html": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2",
+    "webpack-stream": "^5.2.1"
+  },
+  "scripts": {
+    "clean": "npx gulp clean",
+    "build": "npx gulp",
+    "build prod": "npx gulp prod",
+    "build dev": "npx gulp dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dff9th/nicograph.git"
+  },
+  "author": "dff9th",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dff9th/nicograph/issues"
+  },
+  "homepage": "https://github.com/dff9th/nicograph#readme"
+}
